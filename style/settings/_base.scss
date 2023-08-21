@@ -1,0 +1,82 @@
+body {
+    font-family: $regular;
+    background: $black;
+    color: $white;
+}
+
+body.active {
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 10%;
+
+    @media(max-width: 480px) {
+        scroll-padding: 3%;
+    }
+}
+
+// Margins
+.margin {
+    margin-bottom: 220px;
+
+    @media(max-width: 768px) {
+        margin-bottom: 170px;
+    }
+
+    @media(max-width: 480px) {
+        margin-bottom: 100px;
+    }
+
+    @media(max-width: 360px) {
+        margin-bottom: 80px;
+    }
+}
+
+.elem-margin {
+    margin-top: 100px;
+
+    @media(max-width: 768px) {
+        margin-top: 70px;
+    }
+
+    @media(max-width: 480px) {
+        margin-top: 60px;
+    }
+
+    @media(max-width: 360px) {
+        margin-top: 50px;
+    }
+}
+
+.footer-elem-margin {
+    margin-top: 20px;
+}
+
+.container-xxl {
+    padding: 0px 19px;
+}
+
+// Fonts
+.h2 {
+    font-size: 48px;
+    font-family: $medium;
+
+    @media(max-width: 480px) {
+        font-size: 28px;
+    }
+}
+
+.h3 {
+    font-size: 18px;
+    font-family: $bold;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-family: $light;
+}

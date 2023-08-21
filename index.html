@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Swiper CSS-->
+    <link rel="stylesheet" href="./style/swiper/swiper-bundle.min.css" />
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./img/logo.svg">
+    <title>GYM24</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header name="header" class="header margin">
+            <div class="container-xl">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-sm navbar-dark bg-none">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+
+                    <button class="menu-btn">
+                        <img class="menu-btn-img" src="./img/icons/menu-icon.svg" alt="">
+                    </button>
+
+                    <div class="my-nav ms-auto">
+                        <ul class="my-nav-list navbar-nav">
+                            <li class="nav-item">
+                                <a class="my-nav-link nav-link" href="#advantages">Advantages</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="my-nav-link nav-link" href="#membership">Membership</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="my-nav-link nav-link" href="#about">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="my-nav-link nav-link" href="#trainers">Trainers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- Mobile NavBar -->
+                <div class="blackout">
+                    <nav class="nav mobile-nav">
+                        <button class="mobile-nav__btn">
+                            <img src="./img/icons/close-icon.svg" alt="close">
+                        </button>
+
+                        <ul class="mobile-nav-list navbar-nav">
+                            <li class="nav-item">
+                                <a class="mobile-nav-link nav-link" href="#">Advantages</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="mobile-nav-link nav-link" href="#">Membership</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="mobile-nav-link nav-link" href="#">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="mobile-nav-link nav-link" href="#">Trainers</a>
+                            </li>
+
+                            <ul class="mobile-nav-list-socials d-flex">
+                                <li>
+                                    <a href="#!">
+                                        <img src="./img/icons/instagram.svg" alt="">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#!">
+                                        <img src="./img/icons/twitter.svg" alt="">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#!">
+                                        <img src="./img/icons/facebook.svg" alt="">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#!">
+                                        <img src="./img/icons/youtube.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- UTP -->
+                <div class="utp">
+                    <h1 class="utp__title" data-aos="fade-up" data-aos-delay="50">Free trial session <br
+                            class="utp__title_br">with a trainer</h1>
+                    <button class="utp__btn" data-aos="fade-up" data-aos-delay="120">Detailed</button>
+
+                    <picture class="bbn">
+                        <source srcset="./img/main-background-mobile.png" media="(max-width: 599px)">
+                        <source srcset="./img/main-background-table.png" media="(max-width: 768px)">
+                        <img class="utp__img" src="./img/main-background.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main class="main">
+            <!-- Advantages -->
+            <section id="advantages" class="advantages margin">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="advantages__title aos" data-aos="fade-up" data-aos-delay="50">
+                            <h1 class="h2">Reasons to join</h1>
+                        </div>
+
+                        <div class="my-row aos" data-aos="fade-up" data-aos-delay="150">
+                            <div class="advantages__grid elem-margin">
+                                <div class="advantages__item d-flex align-items-center">
+                                    <img class="item__img" src="./img/icons/line.svg" alt="">
+
+                                    <div class="item__cont d-flex flex-column">
+                                        <span class="item__cont_title">15000 sq.m.</span>
+                                        <span class="item__cont_subtitle subtitle">A spacious gym for sports – a safe
+                                            distance<br>between exercise
+                                            machines</span>
+                                    </div>
+                                </div>
+
+                                <div class="advantages__item d-flex align-items-center">
+                                    <img class="item__img" src="./img/icons/eqipment.svg" alt="">
+
+                                    <div class="item__cont d-flex flex-column">
+                                        <span class="item__cont_title">More than 200 equipment</span>
+                                        <span class="item__cont_subtitle subtitle">No queues at the simulators. Premium
+                                            equipment
+                                            <br>
+                                            from LifeStyle, Hammer Strength, TechnoGym.</span>
+                                    </div>
+                                </div>
+
+                                <div class="advantages__item d-flex align-items-center">
+                                    <img class="item__img" src="./img/icons/fitness-zones.svg" alt="">
+
+                                    <div class="item__cont d-flex flex-column">
+                                        <span class="item__cont_title">4 fitness zones</span>
+                                        <span class="item__cont_subtitle subtitle">From cardio to functional and cycle.
+                                            Separate area
+                                            <br>
+                                            for boxing and mixed martial arts</span>
+                                    </div>
+                                </div>
+
+                                <div class="advantages__item d-flex align-items-center">
+                                    <img class="item__img" src="./img/icons/time.svg" alt="">
+
+                                    <div class="item__cont d-flex flex-column">
+                                        <span class="item__cont_title">Round-the-clock operation</span>
+                                        <span class="item__cont_subtitle subtitle">The gym is open 24 hours a day, also
+                                            works on all
+                                            <br>
+                                            holidays and weekends</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Price -->
+            <section id="membership" class="price margin">
+                <div class="container-xl">
+                    <div class="row">
+                        <h1 class="price__title text-center h2 aos" data-aos="fade-up" data-aos-delay="50">Gym
+                            membership</h1>
+
+                        <div class="my-price-row aos" data-aos="fade-up" data-aos-delay="150">
+                            <div class="price__grid elem-margin">
+                                <div class="price__grid_item d-flex flex-column align-items-center">
+                                    <h3 class="price__grid_item_title h3">Pass 'Trial' </h3>
+                                    <h3 class="price__grid_item_price">$ 0</h3>
+
+                                    <div class="price__grid_hr"></div>
+
+                                    <div class="price__cont d-flex flex-column">
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Access to the gym
+                                                from<br>8:00
+                                                to
+                                                14:00
+                                            </span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">The trainer on duty
+                                                will
+                                                introduce you to the gym
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <button class="price__grid_btn">Buy</button>
+                                </div>
+
+                                <div class="price__grid_item d-flex flex-column align-items-center">
+                                    <h3 class="price__grid_item_title h3">Pass ‘Easy Start’ </h3>
+                                    <h3 class="price__grid_item_price">$ 119</h3>
+
+                                    <div class="price__grid_hr"></div>
+
+                                    <div class="price__cont d-flex flex-column">
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Visit without
+                                                restrictions
+                                                24/7</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Individual training
+                                                program</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Access to the VTRAINER
+                                                application</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Trainer support</span>
+                                        </div>
+                                    </div>
+
+                                    <button class="price__grid_btn">Buy</button>
+                                </div>
+
+                                <div class="price__grid_item d-flex flex-column align-items-center">
+                                    <h3 class="price__grid_item_title h3">Pass ‘Free Time’ </h3>
+                                    <h3 class="price__grid_item_price">$ 49</h3>
+
+                                    <div class="price__grid_hr"></div>
+
+                                    <div class="price__cont d-flex flex-column">
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">The entrance time to
+                                                the
+                                                gym is from 14:00 to 16:00</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Without suspension of
+                                                gym
+                                                membership</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">The trainer on duty
+                                                will
+                                                introduce you to the gym</span>
+                                        </div>
+                                    </div>
+
+                                    <button class="price__grid_btn">Buy</button>
+                                </div>
+
+                                <div class="price__grid_item d-flex flex-column align-items-center">
+                                    <h3 class="price__grid_item_title h3">Pass ‘1 Month 24/7’ </h3>
+                                    <h3 class="price__grid_item_price">$ 85</h3>
+
+                                    <div class="price__grid_hr"></div>
+
+                                    <div class="price__cont d-flex flex-column">
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Visit without
+                                                restrictions
+                                                24/7</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">The trainer on duty
+                                                will
+                                                introduce you to the gym</span>
+                                        </div>
+                                    </div>
+
+                                    <button class="price__grid_btn">Buy</button>
+                                </div>
+
+                                <div class="price__grid_item d-flex flex-column align-items-center">
+                                    <h3 class="price__grid_item_title h3">Pass ‘In Shape (AM)’ </h3>
+                                    <h3 class="price__grid_item_price">$ 165</h3>
+
+                                    <div class="price__grid_hr"></div>
+
+                                    <div class="price__cont d-flex flex-column">
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Training in mini-groups
+                                                until 14:00</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Without suspension of
+                                                gym
+                                                membership</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Classes with a trainer
+                                                in a
+                                                mini-group 3 times a week</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Trainer support</span>
+                                        </div>
+                                    </div>
+
+                                    <button class="price__grid_btn">Buy</button>
+                                </div>
+
+                                <div class="price__grid_item d-flex flex-column align-items-center">
+                                    <h3 class="price__grid_item_title h3">Pass ‘In Shape (PM)’ </h3>
+                                    <h3 class="price__grid_item_price">$ 195 </h3>
+
+                                    <div class="price__grid_hr"></div>
+
+                                    <div class="price__cont d-flex flex-column">
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Training in mini-groups
+                                                until 17:00</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Without suspension of
+                                                gym
+                                                membership</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Classes with a trainer
+                                                in a
+                                                mini-group 3 times a week</span>
+                                        </div>
+
+                                        <div class="price__cont_item d-flex align-items-center">
+                                            <img class="price__cont__item_icon" src="./img/icons/check-mark.svg" alt="">
+                                            <span class="price__cont__item_description subtitle">Trainer support</span>
+                                        </div>
+                                    </div>
+
+                                    <button class="price__grid_btn subtitle">Buy</button>
+                                </div>
+                            </div>
+
+                            <div class="price__grid-mobile elem-margin">
+                                <div class="swiper priceSwiper">
+                                    <div class="price-swiper-wrapper swiper-wrapper">
+                                        <div
+                                            class="swiper-slide price__grid_item d-flex flex-column align-items-center">
+                                            <h3 class="price__grid_item_title h3">Pass 'Trial' </h3>
+                                            <h3 class="price__grid_item_price">$ 0</h3>
+
+                                            <div class="price__grid_hr"></div>
+
+                                            <div class="price__cont d-flex flex-column">
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Access to the
+                                                        gym
+                                                        from<br>8:00
+                                                        to
+                                                        14:00
+                                                    </span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">The trainer on
+                                                        duty
+                                                        will
+                                                        introduce you to the gym
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                            <button class="price__grid_btn">Buy</button>
+                                        </div>
+
+                                        <div
+                                            class="swiper-slide price__grid_item d-flex flex-column align-items-center">
+                                            <h3 class="price__grid_item_title h3">Pass ‘Easy Start’ </h3>
+                                            <h3 class="price__grid_item_price">$ 119</h3>
+
+                                            <div class="price__grid_hr"></div>
+
+                                            <div class="price__cont d-flex flex-column">
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Visit without
+                                                        restrictions
+                                                        24/7</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Individual
+                                                        training
+                                                        program</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Access to the
+                                                        VTRAINER
+                                                        application</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Trainer
+                                                        support</span>
+                                                </div>
+                                            </div>
+
+                                            <button class="price__grid_btn">Buy</button>
+                                        </div>
+
+                                        <div
+                                            class="swiper-slide price__grid_item d-flex flex-column align-items-center">
+                                            <h3 class="price__grid_item_title h3">Pass ‘Free Time’ </h3>
+                                            <h3 class="price__grid_item_price">$ 49</h3>
+
+                                            <div class="price__grid_hr"></div>
+
+                                            <div class="price__cont d-flex flex-column">
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">The entrance
+                                                        time
+                                                        to the
+                                                        gym is from 14:00 to 16:00</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Without
+                                                        suspension
+                                                        of gym
+                                                        membership</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">The trainer on
+                                                        duty
+                                                        will
+                                                        introduce you to the gym</span>
+                                                </div>
+                                            </div>
+
+                                            <button class="price__grid_btn">Buy</button>
+                                        </div>
+
+                                        <div
+                                            class="swiper-slide price__grid_item d-flex flex-column align-items-center">
+                                            <h3 class="price__grid_item_title h3">Pass ‘1 Month 24/7’ </h3>
+                                            <h3 class="price__grid_item_price">$ 85</h3>
+
+                                            <div class="price__grid_hr"></div>
+
+                                            <div class="price__cont d-flex flex-column">
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Visit without
+                                                        restrictions
+                                                        24/7</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">The trainer on
+                                                        duty
+                                                        will
+                                                        introduce you to the gym</span>
+                                                </div>
+                                            </div>
+
+                                            <button class="price__grid_btn">Buy</button>
+                                        </div>
+
+                                        <div
+                                            class="swiper-slide price__grid_item d-flex flex-column align-items-center">
+                                            <h3 class="price__grid_item_title h3">Pass ‘In Shape (AM)’ </h3>
+                                            <h3 class="price__grid_item_price">$ 165</h3>
+
+                                            <div class="price__grid_hr"></div>
+
+                                            <div class="price__cont d-flex flex-column">
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Training in
+                                                        mini-groups
+                                                        until 14:00</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Without
+                                                        suspension
+                                                        of gym
+                                                        membership</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Classes with a
+                                                        trainer in a
+                                                        mini-group 3 times a week</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Trainer
+                                                        support</span>
+                                                </div>
+                                            </div>
+
+                                            <button class="price__grid_btn">Buy</button>
+                                        </div>
+
+                                        <div
+                                            class="swiper-slide price__grid_item d-flex flex-column align-items-center">
+                                            <h3 class="price__grid_item_title h3">Pass ‘In Shape (PM)’ </h3>
+                                            <h3 class="price__grid_item_price">$ 195 </h3>
+
+                                            <div class="price__grid_hr"></div>
+
+                                            <div class="price__cont d-flex flex-column">
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Training in
+                                                        mini-groups
+                                                        until 17:00</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Without
+                                                        suspension
+                                                        of gym
+                                                        membership</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Classes with a
+                                                        trainer in a
+                                                        mini-group 3 times a week</span>
+                                                </div>
+
+                                                <div class="price__cont_item d-flex align-items-center">
+                                                    <img class="price__cont__item_icon" src="./img/icons/check-mark.svg"
+                                                        alt="">
+                                                    <span class="price__cont__item_description subtitle">Trainer
+                                                        support</span>
+                                                </div>
+                                            </div>
+
+                                            <button class="price__grid_btn subtitle">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section id="about" class="about margin">
+                <div class="container-xl">
+                    <div class="my-about-row row">
+                        <div class="col">
+                            <div class="about__cont">
+                                <h2 class="about__cont_tile h2 aos" data-aos="fade-right">About Us</h2>
+                                <p class="about__cont_description subtitle aos" data-aos="fade-right">
+                                    Gym24 is a leading fitness center located near Grushevka metro station, offering
+                                    over
+                                    1500 sq. m of space dedicated to top-of-the-line workout equipment from leading
+                                    brands
+                                    such as Hammer Strength, Life Fitness, and TechnoGym.<br>
+                                    <br>
+                                    With affordable membership options, Gym24 is accessible to everyone who wants to
+                                    reach
+                                    their fitness goals, whether it's building strength, increasing endurance, or losing
+                                    weight.<br>
+                                    <br>
+                                    Certified trainers at Gym24 provide expert guidance and support to develop
+                                    personalized
+                                    workout plans tailored to each individual's needs and goals.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="about__swiper">
+                                <div class="swiper mySwiper">
+                                    <div class="about-swiper-wrapper swiper-wrapper">
+                                        <div class="swiper__item swiper-slide aos" data-aos="fade-left">
+                                            <img class="swiper__item_img" src="./img/about/1.jpg" alt="">
+                                        </div>
+
+                                        <div class="swiper__item swiper-slide">
+                                            <img class="swiper__item_img" src="./img/about/2.jpg" alt="">
+                                        </div>
+
+                                        <div class="swiper__item swiper-slide">
+                                            <img class="swiper__item_img" src="./img/about/3.jpg" alt="">
+                                        </div>
+
+                                        <div class="swiper__item swiper-slide">
+                                            <img class="swiper__item_img" src="./img/about/4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Staff -->
+            <section id="trainers" class="staff margin">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="staff__title h2 text-center aos" data-aos="fade-up" data-aos-delay="50">Trainers
+                            staff</div>
+
+                        <div class="my-staff-row">
+                            <div class="staff__grid elem-margin aos" data-aos="fade-up" data-aos-delay="50">
+                                <div class="staff__item d-flex flex-column align-items-center">
+                                    <img class="staff__item_img" src="./img/trainers/8.jpg" alt="Victoria Shurpik">
+
+                                    <h3 class="staff__item_name h3">Victoria Shurpik</h3>
+
+                                    <div class="staff__item_socials d-flex align-items-center">
+                                        <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                    </div>
+                                </div>
+
+                                <div class="staff__item d-flex flex-column align-items-center">
+                                    <img class="staff__item_img" src="./img/trainers/7.jpg" alt="Victoria Shurpik">
+
+                                    <h3 class="staff__item_name h3">Elizabeth Lavrinenko</h3>
+
+                                    <div class="staff__item_socials d-flex align-items-center">
+                                        <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                    </div>
+                                </div>
+
+                                <div class="staff__item d-flex flex-column align-items-center">
+                                    <img class="staff__item_img" src="./img/trainers/1.jpg" alt="Victoria Shurpik">
+
+                                    <h3 class="staff__item_name h3">Maria Masyak</h3>
+
+                                    <div class="staff__item_socials d-flex align-items-center">
+                                        <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                    </div>
+                                </div>
+
+                                <div class="staff__item d-flex flex-column align-items-center">
+                                    <img class="staff__item_img" src="./img/trainers/5.jpg" alt="Victoria Shurpik">
+
+                                    <h3 class="staff__item_name h3">Lyudmila Sabilo</h3>
+
+                                    <div class="staff__item_socials d-flex align-items-center">
+                                        <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                    </div>
+                                </div>
+
+                                <div class="staff__item d-flex flex-column align-items-center">
+                                    <img class="staff__item_img" src="./img/trainers/4.jpg" alt="Victoria Shurpik">
+
+                                    <h3 class="staff__item_name h3">Evgeny Gurkov</h3>
+
+                                    <div class="staff__item_socials d-flex align-items-center">
+                                        <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                    </div>
+                                </div>
+
+                                <div class="staff__item d-flex flex-column align-items-center">
+                                    <img class="staff__item_img" src="./img/trainers/3.jpg" alt="Victoria Shurpik">
+
+                                    <h3 class="staff__item_name h3">Anatoly Prytytsky</h3>
+
+                                    <div class="staff__item_socials d-flex align-items-center">
+                                        <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                    </div>
+                                </div>
+
+                                <div class="staff__item d-flex flex-column align-items-center">
+                                    <img class="staff__item_img" src="./img/trainers/2.jpg" alt="Victoria Shurpik">
+
+                                    <h3 class="staff__item_name h3">Victor Ludkovich</h3>
+
+                                    <div class="staff__item_socials d-flex align-items-center">
+                                        <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                    </div>
+                                </div>
+
+                                <div class="staff__item d-flex flex-column align-items-center">
+                                    <img class="staff__item_img" src="./img/trainers/6.jpg" alt="Victoria Shurpik">
+
+                                    <h3 class="staff__item_name h3">Ivan Gladkikh</h3>
+
+                                    <div class="staff__item_socials d-flex align-items-center">
+                                        <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                        <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Staff Grid Mobile -->
+                            <div class="staff__grid-mobile elem-margin aos" data-aos="fade-up" data-aos-delay="50">
+                                <div class="swiper staffSwiper">
+                                    <div class="swiper-wrapper staff-slider-wrapper">
+                                        <div class="swiper-slide staff__item d-flex flex-column align-items-center">
+                                            <img class="staff__item_img" src="./img/trainers/8.jpg"
+                                                alt="Victoria Shurpik">
+
+                                            <h3 class="staff__item_name h3">Victoria Shurpik</h3>
+
+                                            <div class="staff__item_socials d-flex align-items-center">
+                                                <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide staff__item d-flex flex-column align-items-center">
+                                            <img class="staff__item_img" src="./img/trainers/7.jpg"
+                                                alt="Victoria Shurpik">
+
+                                            <h3 class="staff__item_name h3">Elizabeth Lavrinenko</h3>
+
+                                            <div class="staff__item_socials d-flex align-items-center">
+                                                <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide staff__item d-flex flex-column align-items-center">
+                                            <img class="staff__item_img" src="./img/trainers/1.jpg"
+                                                alt="Victoria Shurpik">
+
+                                            <h3 class="staff__item_name h3">Maria Masyak</h3>
+
+                                            <div class="staff__item_socials d-flex align-items-center">
+                                                <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide staff__item d-flex flex-column align-items-center">
+                                            <img class="staff__item_img" src="./img/trainers/5.jpg"
+                                                alt="Victoria Shurpik">
+
+                                            <h3 class="staff__item_name h3">Lyudmila Sabilo</h3>
+
+                                            <div class="staff__item_socials d-flex align-items-center">
+                                                <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide staff__item d-flex flex-column align-items-center">
+                                            <img class="staff__item_img" src="./img/trainers/4.jpg"
+                                                alt="Victoria Shurpik">
+
+                                            <h3 class="staff__item_name h3">Evgeny Gurkov</h3>
+
+                                            <div class="staff__item_socials d-flex align-items-center">
+                                                <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide staff__item d-flex flex-column align-items-center">
+                                            <img class="staff__item_img" src="./img/trainers/3.jpg"
+                                                alt="Victoria Shurpik">
+
+                                            <h3 class="staff__item_name h3">Anatoly Prytytsky</h3>
+
+                                            <div class="staff__item_socials d-flex align-items-center">
+                                                <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide staff__item d-flex flex-column align-items-center">
+                                            <img class="staff__item_img" src="./img/trainers/2.jpg"
+                                                alt="Victoria Shurpik">
+
+                                            <h3 class="staff__item_name h3">Victor Ludkovich</h3>
+
+                                            <div class="staff__item_socials d-flex align-items-center">
+                                                <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide staff__item d-flex flex-column align-items-center">
+                                            <img class="staff__item_img" src="./img/trainers/6.jpg"
+                                                alt="Victoria Shurpik">
+
+                                            <h3 class="staff__item_name h3">Ivan Gladkikh</h3>
+
+                                            <div class="staff__item_socials d-flex align-items-center">
+                                                <a href="#!"><img src="./img/icons/instagram.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/twitter.svg" alt=""></a>
+
+                                                <a href="#!"><img src="./img/icons/youtube.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container-xl">
+                <div class="my-footer-row">
+                    <div class="footer__gym footer-mob">
+                        <img src="./img/logo.svg" alt="logo">
+
+                        <p class="footer__gym_subtitle subtitle footer-elem-margin">Build strength and confidence at our
+                            gym
+                            with
+                            state-of-the-art equipment, personalized
+                            training, and a motivating community</p>
+                    </div>
+
+                    <div class="footer__address footer-mob">
+                        <div class="footer__address_title h3">Address</div>
+
+                        <p class="footer__address_subtitle subtitle footer-elem-margin">
+                            Republic of Belarus <br>
+                            Minsk city<br>
+                            Dzerzhinsky Avenue 15<br>
+                        </p>
+                    </div>
+
+                    <div class="footer__contact footer-mob">
+                        <div class="footer__contact_title h3">Contact</div>
+
+                        <div class="footer_phone_contact footer-elem-margin d-flex flex-column">
+                            <a href="tel: +375(44)-777-24-12" class="footer_link_phone subtitle">+375(44)-777-24-12</a>
+                            <a href="mailto: gym24@gmail.com" class="footer_link_email subtitle">gym24@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- Swiper JS-->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- JS -->
+    <script src="./js/js.js"></script>
+</body>
+
+</html>
