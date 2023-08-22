@@ -320,6 +320,9 @@ body.active {
   padding-left: 0px !important;
 }
 
+.menu-btn {
+  display: none;
+}
 .menu-btn-line {
   position: absolute;
   bottom: 0;
