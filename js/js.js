@@ -1,3 +1,4 @@
+// Swiper
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -37,24 +38,25 @@ var swiper = new Swiper(".priceSwiper", {
 });
 
 
-// Menu Burger
-
+// Menu Burger Btn
 const btn = document.querySelector('.menu-btn')
 const blackout = document.querySelector('.blackout')
-const mobileBtn = document.querySelector('.mobile-nav__btn')
 const mobileLink = document.querySelectorAll('.mobile-nav-link')
 const mobileNav = document.querySelector('.mobile-nav')
+const line1 = document.querySelector('.line-1')
+const line2 = document.querySelector('.line-2')
+const line3 = document.querySelector('.line-3')
+const lines = document.querySelectorAll('.menu-btn-line')
+
 
 btn.addEventListener('click', () => {
     blackout.classList.add('active')
     mobileNav.classList.add('active')
     document.body.classList.add('active')
-})
 
-mobileBtn.addEventListener('click', (e) => {
-    blackout.classList.remove('active')
-    document.body.classList.remove('active')
-    mobileNav.classList.remove('active')
+    line1.classList.add('active')
+    line2.classList.add('active')
+    line3.classList.add('active')
 })
 
 mobileLink.forEach(element => {
@@ -62,15 +64,22 @@ mobileLink.forEach(element => {
         blackout.classList.remove('active')
         document.body.classList.remove('active')
         mobileNav.classList.remove('active')
+
+        line1.classList.remove('active')
+        line2.classList.remove('active')
+        line3.classList.remove('active')
     })
 });
-
 
 document.addEventListener('click', (e) => {
     if (e.target.classList.contains('blackout')) {
         blackout.classList.remove('active')
         document.body.classList.remove('active')
         mobileNav.classList.remove('active')
+
+        line1.classList.remove('active')
+        line2.classList.remove('active')
+        line3.classList.remove('active')
     } else {
         console.log();
     }

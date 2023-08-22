@@ -1,36 +1,36 @@
-$light: 'MADE-Outer-Sans-Regular';
-$regular: 'MADE-Outer-Sans-Regular';
-$medium: 'MADE-Outer-Sans-Medium';
-$bold: 'MADE-Outer-Sans-Bold';
+$light: 'Light';
+$regular: 'Regular';
+$medium: 'Medium';
+$bold: 'Bold';
 
 @font-face {
-    font-family: 'MADE-Outer-Sans-Light';
-    src: url('../fonts/fonts/MADE-Outer-Sans-Light-PERSONAL-USE.woff') format(woff),
-        url('../fonts/MADE-Outer-Sans-Light-PERSONAL-USE.woff2') format(woff2);
+    font-family: 'Light';
+    src: url('/style/fonts/Light.woff') format(woff),
+        url('/style/fonts/Light.woff2') format(woff2);
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MADE-Outer-Sans-Regular';
-    src: url('../fonts/MADE-Outer-Sans-Regular-PERSONAL-USE.woff') format(woff),
-        url('../fonts/MADE-Outer-Sans-Regular-PERSONAL-USE.woff2') format(woff2);
+    font-family: 'Regular';
+    src: url('/style/fonts/Regular.woff') format(woff),
+        url('/style/fonts/Regular.woff2') format(woff2);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MADE-Outer-Sans-Medium';
-    src: url('../fonts/MADE-Outer-Sans-Medium-PERSONAL-USE.woff') format(woff),
-        url('../fonts/MADE-Outer-Sans-Medium-PERSONAL-USE.woff2') format(woff2);
+    font-family: 'Medium';
+    src: url('/style/fonts/Medium.woff') format(woff),
+        url('/style/fonts/Medium.woff2') format(woff2);
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'MADE-Outer-Sans-Bold';
-    src: url('../fonts/MADE-Outer-Sans-Bold-PERSONAL-USE.woff') format(woff),
-        url('../fonts/MADE-Outer-Sans-Bold-PERSONAL-USE.woff') format(woff2);
+    font-family: 'Bold';
+    src: url('/style/fonts/Bold.woff') format(woff),
+        url('/style/fonts/Bold.woff2') format(woff2);
     font-weight: 700;
     font-style: normal;
 }

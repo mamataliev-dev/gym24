@@ -1,4 +1,3 @@
-/* Reset and base styles  */
 * {
   padding: 0px;
   margin: 0px;
@@ -110,37 +109,37 @@ legend {
 }
 
 @font-face {
-  font-family: "MADE-Outer-Sans-Light";
-  src: url("../../fonts/MADE-Outer-Sans-Light-PERSONAL-USE.woff") format(woff), url("../../fonts/MADE-Outer-Sans-Light-PERSONAL-USE.woff2") format(woff2);
+  font-family: "Light";
+  src: url("/style/fonts/Light.woff") format(woff), url("/style/fonts/Light.woff2") format(woff2);
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
-  font-family: "MADE-Outer-Sans-Regular";
-  src: url("../../fonts/MADE-Outer-Sans-Regular-PERSONAL-USE.woff") format(woff), url("../../fonts/MADE-Outer-Sans-Regular-PERSONAL-USE.woff2") format(woff2);
+  font-family: "Regular";
+  src: url("/style/fonts/Regular.woff") format(woff), url("/style/fonts/Regular.woff2") format(woff2);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "MADE-Outer-Sans-Medium";
-  src: url("../../fonts/MADE-Outer-Sans-Medium-PERSONAL-USE.woff") format(woff), url("../../fonts/MADE-Outer-Sans-Medium-PERSONAL-USE.woff2") format(woff2);
+  font-family: "Medium";
+  src: url("/style/fonts/Medium.woff") format(woff), url("/style/fonts/Medium.woff2") format(woff2);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "MADE-Outer-Sans-Bold";
-  src: url("../../fonts/MADE-Outer-Sans-Bold-PERSONAL-USE.woff") format(woff), url("../../fonts/MADE-Outer-Sans-Bold-PERSONAL-USE.woff") format(woff2);
+  font-family: "Bold";
+  src: url("/style/fonts/Bold.woff") format(woff), url("/style/fonts/Bold.woff2") format(woff2);
   font-weight: 700;
   font-style: normal;
 }
 body {
-  font-family: "MADE-Outer-Sans-Regular";
+  font-family: "Regular";
   background: #000;
   color: #fff;
 }
 
 body.active {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .wrapper {
@@ -166,12 +165,12 @@ body.active {
 }
 @media (max-width: 480px) {
   .margin {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
 }
 @media (max-width: 360px) {
   .margin {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
   }
 }
 
@@ -204,7 +203,7 @@ body.active {
 
 .h2 {
   font-size: 48px;
-  font-family: "MADE-Outer-Sans-Medium";
+  font-family: "Medium";
 }
 @media (max-width: 480px) {
   .h2 {
@@ -214,16 +213,17 @@ body.active {
 
 .h3 {
   font-size: 18px;
-  font-family: "MADE-Outer-Sans-Bold";
+  font-family: "Bold";
 }
 
 .subtitle {
   font-size: 14px;
-  font-family: "MADE-Outer-Sans-Regular";
+  font-family: "Light";
 }
 
 .header {
   scroll-snap-align: start;
+  position: relative;
   padding-top: 40px;
 }
 
@@ -233,7 +233,7 @@ body.active {
 }
 .my-nav-link {
   font-size: 12px;
-  font-family: "MADE-Outer-Sans-Regular";
+  font-family: "Light";
   color: #fff !important;
 }
 
@@ -246,7 +246,7 @@ body.active {
 }
 .utp__title {
   font-size: 64px;
-  font-family: "MADE-Outer-Sans-Medium";
+  font-family: "Medium";
 }
 .utp__btn {
   padding: 16px 50px;
@@ -285,8 +285,8 @@ body.active {
 }
 
 .mobile-nav.active {
-  transform: none;
-  transition: all 1s ease;
+  transform: translateX(0px);
+  transition: all 0.3s ease;
 }
 
 .mobile-nav {
@@ -294,11 +294,13 @@ body.active {
   top: 0;
   left: 0;
   transform: translateX(-400px);
-  transition: all 1s ease;
+  transition: all 0.3s ease;
+  z-index: 5;
   padding: 80px 0px 0px 20px;
   width: 270px;
-  height: 100%;
+  height: 100vh;
   background: #222222;
+  overflow: hidden;
 }
 .mobile-nav-list {
   row-gap: 30px;
@@ -318,12 +320,41 @@ body.active {
   padding-left: 0px !important;
 }
 
-.menu-btn {
-  display: none;
+.menu-btn-line {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  width: 45px;
+  height: 3px;
+  background-color: #fff;
 }
-.menu-btn-img {
-  width: 30px;
-  height: 30px;
+
+.line-1 {
+  top: 15px;
+  transition: all 0.3s ease;
+}
+
+.line-1.active {
+  transform: rotate(43deg) translate(16px, 3px);
+}
+
+.line-2 {
+  top: 27px;
+  transition: all 0.3s ease;
+}
+
+.line-2.active {
+  opacity: 0;
+}
+
+.line-3 {
+  top: 39px;
+  transition: all 0.3s ease;
+}
+
+.line-3.active {
+  transform: rotate(-45deg) translate(14px, 0px);
 }
 
 @media (max-width: 1280px) {
@@ -402,7 +433,7 @@ body.active {
 }
 .item__cont_title {
   font-size: 18px;
-  font-family: "MADE-Outer-Sans-Bold";
+  font-family: "Bold";
   margin-bottom: 12px;
 }
 
@@ -441,7 +472,7 @@ body.active {
 }
 .price__grid_item_price {
   font-size: 24px;
-  font-family: "MADE-Outer-Sans-Medium";
+  font-family: "Medium";
   margin-top: 10px;
   margin-bottom: 22px;
 }
@@ -596,6 +627,7 @@ body.active {
   }
   .about__swiper {
     margin-top: 50px;
+    padding-bottom: 60px;
   }
 }
 .staff {
@@ -688,7 +720,7 @@ body.active {
   transform: translate(0%, 30%);
   width: 20px;
   height: 20px;
-  background-image: url(../../img/icons/email.svg);
+  background-image: url("/img/icons/email.svg");
   background-repeat: no-repeat;
 }
 
@@ -704,7 +736,7 @@ body.active {
   transform: translate(0%, 0%);
   width: 20px;
   height: 20px;
-  background-image: url(../../img/icons/phone.svg);
+  background-image: url("/img/icons/phone.svg");
   background-repeat: no-repeat;
 }
 
