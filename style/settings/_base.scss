@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+$montserrat: 'Montserrat', sans-serif;
+
 body {
-    font-family: $regular;
+    font-family: $montserrat;
+    font-weight: 400;
     background: $black;
     color: $white;
 }
@@ -64,7 +69,8 @@ body.active {
 // Fonts
 .h2 {
     font-size: 48px;
-    font-family: $medium;
+    font-family: $montserrat;
+    font-weight: 500;
 
     @media(max-width: 480px) {
         font-size: 28px;
@@ -73,10 +79,12 @@ body.active {
 
 .h3 {
     font-size: 18px;
-    font-family: $bold;
+    font-family: $montserrat;
+    font-weight: 700;
 }
 
 .subtitle {
     font-size: 14px;
-    font-family: $light;
+    font-family: $montserrat;
+    font-weight: 100;
 }

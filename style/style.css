@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -108,32 +109,9 @@ legend {
   display: block;
 }
 
-@font-face {
-  font-family: "Light";
-  src: url("/style/fonts/Light.woff") format(woff), url("/style/fonts/Light.woff2") format(woff2);
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Regular";
-  src: url("/style/fonts/Regular.woff") format(woff), url("/style/fonts/Regular.woff2") format(woff2);
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Medium";
-  src: url("/style/fonts/Medium.woff") format(woff), url("/style/fonts/Medium.woff2") format(woff2);
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Bold";
-  src: url("/style/fonts/Bold.woff") format(woff), url("/style/fonts/Bold.woff2") format(woff2);
-  font-weight: 700;
-  font-style: normal;
-}
 body {
-  font-family: "Regular";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   background: #000;
   color: #fff;
 }
@@ -203,7 +181,8 @@ body.active {
 
 .h2 {
   font-size: 48px;
-  font-family: "Medium";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 @media (max-width: 480px) {
   .h2 {
@@ -213,12 +192,14 @@ body.active {
 
 .h3 {
   font-size: 18px;
-  font-family: "Bold";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 .subtitle {
   font-size: 14px;
-  font-family: "Light";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
 }
 
 .header {
@@ -233,7 +214,8 @@ body.active {
 }
 .my-nav-link {
   font-size: 12px;
-  font-family: "Light";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
   color: #fff !important;
 }
 
@@ -246,7 +228,8 @@ body.active {
 }
 .utp__title {
   font-size: 64px;
-  font-family: "Medium";
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 .utp__btn {
   padding: 16px 50px;
@@ -436,7 +419,8 @@ body.active {
 }
 .item__cont_title {
   font-size: 18px;
-  font-family: "Bold";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   margin-bottom: 12px;
 }
 
@@ -475,7 +459,8 @@ body.active {
 }
 .price__grid_item_price {
   font-size: 24px;
-  font-family: "Medium";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   margin-top: 10px;
   margin-bottom: 22px;
 }
